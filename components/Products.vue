@@ -9,15 +9,22 @@ export default {
 </script>
 
 <template>
-  <div class="columns p-6">
-    <div class="column">
-      <Product />
-    </div>
-    <div class="column">
-      <Product />
-    </div>
-    <div class="column">
-      <Product />
+  <div class="container m-6">
+    <p class="is-size-2 has-text-centered is-underlined mb-6">Featured</p>
+
+    <div class="columns">
+      <div class="column">
+        <Product />
+      </div>
+      <div class="column">
+        <Product />
+      </div>
+      <div class="column">
+        <Product />
+      </div>
+      <div class="column">
+        <Product />
+      </div>
     </div>
   </div>
 </template>
