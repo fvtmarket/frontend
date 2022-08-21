@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <div class="container m-6">
+  <div class="container my-6">
     <p class="is-size-2 has-text-centered is-underlined mb-6">Products</p>
 
     <div class="columns">
