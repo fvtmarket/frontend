@@ -18,6 +18,6 @@ export default {
 
 <style scoped>
   .hero {
-    background-color: #8CE2FF;
+    background-color: #B2FFFF;
   }
 </style>

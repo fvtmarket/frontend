@@ -27,15 +27,12 @@ export default {
 
       <div id="collapse" class="navbar-menu" :class="{'is-active': isActive}">
         <div class="navbar-start">
-          <NuxtLink to="/" class="navbar-item">Featured</NuxtLink>
-          <NuxtLink to="/" class="navbar-item">Categories</NuxtLink>
-          <NuxtLink to="/" class="navbar-item">About Us</NuxtLink>
+          <NuxtLink to="/products" class="navbar-item">Products</NuxtLink>
         </div>
 
         <div class="navbar-end">
           <NuxtLink to="/" class="navbar-item"><i class="fa-solid fa-magnifying-glass"></i></NuxtLink>
-          <NuxtLink to="/" class="navbar-item"><i class="fa-solid fa-user"></i></NuxtLink>
-          <NuxtLink to="/" class="navbar-item"><i class="fa-solid fa-basket-shopping"></i></NuxtLink>
+          <NuxtLink to="/cart" class="navbar-item"><i class="fa-solid fa-basket-shopping"></i></NuxtLink>
         </div>
       </div>
     </nav>

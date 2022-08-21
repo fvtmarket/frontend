@@ -7,16 +7,16 @@ export default {
 <template>
   <section class="hero is-small">
     <div class="hero-body">
-      <div class="container has-text-centered">
+      <div class="container has-text-centered my-6">
         <p class="is-size-6 my-6">FVT Market &copy;2022</p>
 
-        <div class="columns">
+        <div class="columns is-mobile">
           <div class="column"></div>
           <div class="column">
-            <div class="columns">
+            <div class="columns is-mobile">
               <div class="column"></div>
               <div class="column">
-                <div class="columns">
+                <div class="columns is-mobile">
                   <div class="column">
                     <i class="fa-brands fa-instagram"></i>
                   </div>
