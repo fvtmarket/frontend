@@ -27,6 +27,7 @@ export default {
 
       <div id="collapse" class="navbar-menu" :class="{'is-active': isActive}">
         <div class="navbar-start">
+          <NuxtLink to="/" class="navbar-item">Home</NuxtLink>
           <NuxtLink to="/products" class="navbar-item">Products</NuxtLink>
         </div>
 
@@ -36,6 +37,8 @@ export default {
         </div>
       </div>
     </nav>
+
+    <hr>
   </div>
 </template>
 

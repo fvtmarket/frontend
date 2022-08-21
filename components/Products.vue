@@ -24,18 +24,17 @@ export default {
   <div class="container my-6">
     <p class="is-size-2 has-text-centered is-underlined mb-6">Products</p>
 
-    <div class="columns">
+    <div class="columns px-6">
       <div class="column" v-for="product in products" :key="product.id">
         <div class="card">
           <div class="card-image">
             <figure class="image is-square">
-              <img :src="baseUrl + product.attributes.photos.data[0].attributes.url" alt="Luca BOttillo">
+              <img :src="baseUrl + product.attributes.photos.data[0].attributes.url">
             </figure>
           </div>
           <div class="card-content">
-            <p class="title">{{ product.attributes.name }}</p>
+            <p class="title"><NuxtLink :to="'/products/' + product.id">{{ product.attributes.name }}</NuxtLink></p>
             <p class="subtitle">{{ product.attributes.resellPrice }}€</p>
-            <NuxtLink to="/" class="button">Buy</NuxtLink>
           </div>
         </div>
       </div>
@@ -48,7 +47,5 @@ export default {
 </template>
 
 <style scoped>
-  .button {
-    background-color: #B2FFFF;
-  }
+
 </style>
